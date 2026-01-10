@@ -72,14 +72,6 @@ The deployed web page confirms successful automation:
 
 ## 📸 Project Output Screenshot
 
-You can add a screenshot of the browser output here.
-
-### How to Add Screenshot
-
-1. Take a screenshot of the webpage output (`http://<server-ip>`)
-2. Create a folder named `screenshots/`
-3. Place the image inside it (example: `output.png`)
-4. Add it below:
 
 ```
 ![Apache Output](screenshots/output.png)
