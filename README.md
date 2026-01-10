@@ -6,7 +6,7 @@ This project demonstrates **automated installation, configuration, and deploymen
 
 With a single playbook execution, Apache is installed, enabled, started, and a custom `index.html` file is deployed across all target nodes.
 
-This project reflects **real-world DevOps / SysAdmin automation practices** such as configuration management, idempotency, and infrastructure consistency.
+This project reflects **automation practices** such as configuration management, idempotency, and infrastructure consistency.
 
 ---
 
