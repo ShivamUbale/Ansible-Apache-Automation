@@ -1,0 +1,26 @@
+---
+- name: Configure Apache HTTPD Web Server
+  hosts: all
+  become: true
+
+  tasks:
+    - name: Install httpd package
+      package:
+        name: httpd
+        state: present
+    
+    - name: Ensure httpd service is enable and running
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+     
+    - name: Deploy a custom index.html file
+      copy:
+        src: ../files/index.html
+        dest: /var/www/html/index.html
+        owner: apache
+        group: apache
+        mode: "0644" 
+
+
