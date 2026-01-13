@@ -73,9 +73,9 @@ The deployed web page confirms successful automation:
 ## 📸 Project Output Screenshot
 
 
-```
+
 ![Apache Output](screenshots/output.png)
-```
+
 
 ---
 
