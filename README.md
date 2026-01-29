@@ -69,13 +69,11 @@ The deployed web page confirms successful automation:
 > This webpage was deployed using Ansible Automation.
 
 ---
+### 📸 Screenshots
 
-## 📸 Project Output Screenshot
-
-
-
-![Apache Output](screenshots/output.png)
-
+| Screenshot                                       | Description                                   |
+| ------------------------------------------------ | --------------------------------------------- |
+| ![Apache Output](screenshots/output.png)         | Project Output                                |
 
 ---
 
